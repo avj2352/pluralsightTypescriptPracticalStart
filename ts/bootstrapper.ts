@@ -7,5 +7,4 @@
 /// <reference path="./coin.ts"/>
 var machine = new VendingMachine();
 var coin = new Quarter();
-ko.applyBindings(coin);
-ko.applyBindings(machine); //Typescript doesn't understand what ko object is...
+ko.applyBindings(coin);//Typescript doesn't understand what ko object is...
